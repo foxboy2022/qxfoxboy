@@ -152,17 +152,50 @@
           "autoGrow": true,
           "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
         },
-                {
-                  "id": "bark_key",
-                  "name": "bark_key",
-                  "val": false,
-                  "type": "input"
-                }
+        {
+          "id": "bark_key",
+          "name": "bark_key",
+          "val": false,
+          "type": "input"
+        }
       ],
       "author": "@dmw",
       "repo": "https://github.com/foxboy2022/qxfoxboy",
       "icons": [
         "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/bark.jpg"
+      ]
+    },
+    {
+      "id": "debug-tools",
+      "name": "debug-Tools",
+      "author": "@dmw",
+      "descs_html": [
+        "自用工具"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
+      ],
+      "keys": [
+        "is_debug",
+        "bark_key"
+      ],
+      "settings": [
+        {
+          "id": "is_debug",
+          "name": "Debug",
+          "val": false,
+          "type": "boolean",
+          "desc": "自用"
+        },
+        {
+          "id": "bark_key",
+          "name": "Bark key",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": "自用"
+        }
       ]
     }
   ]
