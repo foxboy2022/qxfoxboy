@@ -134,6 +134,36 @@
           "type": "boolean"
         }
       ]
+    },
+    {
+      "id": "dmw.bark",
+      "name": "Bark推送",
+      "keys": [
+        "magic_bark_url",
+        "bark_key"
+      ],
+      "settings": [
+        {
+          "id": "magic_bark_url",
+          "name": "Bark推送URL",
+          "val": "",
+          "type": "input",
+          "placeholder": "https://api.day.app/xxxxxxxxxxxxxxxxxx/",
+          "autoGrow": true,
+          "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
+        },
+                {
+                  "id": "bark_key",
+                  "name": "bark_key",
+                  "val": false,
+                  "type": "input"
+                }
+      ],
+      "author": "@dmw",
+      "repo": "https://github.com/foxboy2022/qxfoxboy",
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/bark.jpg"
+      ]
     }
   ]
 }
