@@ -5,87 +5,132 @@
   "icon": "https://avatars.githubusercontent.com/u/88471740",
   "repo": "https://github.com/foxboy2022/qxfoxboy",
   "apps": [{
-    "id": "dmw-maotai",
-    "name": "i茅台2024",
-    "author": "@dmw",
-    "script": "",
-    "descs_html": [
-      ""
-    ],
-    "icons": [
-      "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png",
-      "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png"
-    ],
-    "keys": [
-      "MT_TOKENS",
-      "MT_PROVINCE",
-      "MT_CITY",
-      "MT_DISTRICT",
-      "MT_ITEM_BLACK",
-      "MT_VERSION",
-      "MT_USERAGENT",
-      "MT_R"
-    ],
-    "settings": [{
-        "id": "MT_TOKENS",
-        "name": "i茅台Token",
-        "val": "",
-        "type": "textarea",
-        "autoGrow": true,
-        "rows": 1,
-        "desc": ""
-      },
-      {
-        "id": "MT_PROVINCE",
-        "name": "省份",
-        "val": "",
-        "type": "text",
-        "desc": "XX省 / 直辖市"
-      },
-      {
-        "id": "MT_CITY",
-        "name": "城市",
-        "val": "",
-        "type": "text",
-        "desc": "XX市 / 直辖市"
-      },
-      {
-        "id": "MT_DISTRICT",
-        "name": "区域",
-        "val": "",
-        "type": "text",
-        "desc": "xx区|xx区"
-      },
-      {
-        "id": "MT_ITEM_BLACK",
-        "name": "商品黑名单",
-        "val": "",
-        "type": "text",
-        "desc": "2478|10056"
-      },
-      {
-        "id": "MT_VERSION",
-        "name": "APP版本号",
-        "val": "",
-        "type": "text",
-        "desc": "x.x.x"
-      },
-      {
-        "id": "MT_USERAGENT",
-        "name": "用户标识",
-        "val": "",
-        "type": "text",
-        "desc": "iOS;16.1.2;Apple;"
-      },
-      {
-        "id": "MT_R",
-        "name": "MT_R",
-        "val": "",
-        "type": "text",
-        "desc": "clips_xxx"
-      }
+      "id": "dmw-maotai",
+      "name": "i茅台2024",
+      "author": "@dmw",
+      "script": "",
+      "descs_html": [
+        ""
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png"
+      ],
+      "keys": [
+        "MT_TOKENS",
+        "MT_PROVINCE",
+        "MT_CITY",
+        "MT_DISTRICT",
+        "MT_ITEM_BLACK",
+        "MT_VERSION",
+        "MT_USERAGENT",
+        "MT_R"
+      ],
+      "settings": [{
+          "id": "MT_TOKENS",
+          "name": "i茅台Token",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": ""
+        },
+        {
+          "id": "MT_PROVINCE",
+          "name": "省份",
+          "val": "",
+          "type": "text",
+          "desc": "XX省 / 直辖市"
+        },
+        {
+          "id": "MT_CITY",
+          "name": "城市",
+          "val": "",
+          "type": "text",
+          "desc": "XX市 / 直辖市"
+        },
+        {
+          "id": "MT_DISTRICT",
+          "name": "区域",
+          "val": "",
+          "type": "text",
+          "desc": "xx区|xx区"
+        },
+        {
+          "id": "MT_ITEM_BLACK",
+          "name": "商品黑名单",
+          "val": "",
+          "type": "text",
+          "desc": "2478|10056"
+        },
+        {
+          "id": "MT_VERSION",
+          "name": "APP版本号",
+          "val": "",
+          "type": "text",
+          "desc": "x.x.x"
+        },
+        {
+          "id": "MT_USERAGENT",
+          "name": "用户标识",
+          "val": "",
+          "type": "text",
+          "desc": "iOS;16.1.2;Apple;"
+        },
+        {
+          "id": "MT_R",
+          "name": "MT_R",
+          "val": "",
+          "type": "text",
+          "desc": "clips_xxx"
+        }
       ],
       "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js"
+    },
+    {
+      "id": "gson.prod.10000",
+      "name": "2024中国电信",
+      "descs_html": [
+        "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
+        "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+      ],
+      "scripts": [{
+        "name": "2024中国电信流量查询",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
+      }],
+      "keys": [
+        "gsonhub.10000.mobile",
+        "gsonhub.10000.password",
+        "gsonhub.10000.token",
+        "gsonhub.10000.mute",
+        "gsonhub.10000.vvv_flow",
+        "gsonhub.10000.login_num",
+        "gsonhub.10000.login_info"
+      ],
+
+      "author": "@gsonhub",
+      "settings": [{
+          "id": "gsonhub.10000.mobile",
+          "name": "手机号",
+          "val": "",
+          "type": "text",
+          "desc": "手机号"
+        },
+        {
+          "id": "gsonhub.10000.password",
+          "name": "密码",
+          "val": "",
+          "type": "text",
+          "desc": "密码"
+        },
+        {
+          "id": "gsonhub.10000.mute",
+          "name": "禁音模式",
+          "val": false,
+          "type": "boolean"
+        }
+      ]
     }
-  ]
+  }
+]
 }
