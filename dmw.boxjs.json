@@ -4,7 +4,8 @@
   "author": "@dmw",
   "icon": "https://avatars.githubusercontent.com/u/88471740",
   "repo": "https://github.com/foxboy2022/qxfoxboy",
-  "apps": [{
+  "apps": [
+    {
       "id": "dmw-maotai",
       "name": "i茅台2024",
       "author": "@dmw",
@@ -26,7 +27,8 @@
         "MT_USERAGENT",
         "MT_R"
       ],
-      "settings": [{
+      "settings": [
+        {
           "id": "MT_TOKENS",
           "name": "i茅台Token",
           "val": "",
@@ -94,10 +96,12 @@
         "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
         "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
       ],
-      "scripts": [{
-        "name": "2024中国电信流量查询",
-        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
-      }],
+      "scripts": [
+        {
+          "name": "2024中国电信流量查询",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
+        }
+      ],
       "keys": [
         "gsonhub.10000.mobile",
         "gsonhub.10000.password",
@@ -107,9 +111,9 @@
         "gsonhub.10000.login_num",
         "gsonhub.10000.login_info"
       ],
-
       "author": "@gsonhub",
-      "settings": [{
+      "settings": [
+        {
           "id": "gsonhub.10000.mobile",
           "name": "手机号",
           "val": "",
@@ -131,6 +135,5 @@
         }
       ]
     }
-  }
-]
+  ]
 }
