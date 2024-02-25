@@ -173,7 +173,7 @@
         "自用工具"
       ],
       "icons": [
-        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png",
+        "debug.png",
         "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
       ],
       "keys": [
@@ -198,121 +198,185 @@
         }
       ]
     },
-     {
-          "author": "@dmw", 
-          "descs_html": [
-            "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>", 
-            "<br />", 
-            "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
-          ], 
-          "keys": [
-            "zq_nick", 
-            "youthheader_zq", 
-            "read_zq", 
-            "readtime_zq", 
-            "cashurl_zq", 
-            "cashbody_zq", 
-            "zqcash", 
-            "zqcard"
-          ], 
-          "repo": "https://github.com/foxboy2022/qxfoxboy", 
-          "id": "youth", 
-          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth.js", 
-          "settings": [
-            {
-              "id": "zqcard", 
-              "val": "false", 
-              "name": "打卡赚钱", 
-              "type": "boolean", 
-              "desc": "每日打卡报名及早起打卡"
-            }, 
-            {
-              "id": "zqtime", 
-              "val": "05", 
-              "name": "打卡时间", 
-              "type": "number", 
-              "desc": "每日早起打卡时间"
-            }, 
-            {
-              "id": "delay_rotary_zq", 
-              "val": "10", 
-              "name": "转盘时间间隔", 
-              "type": "number", 
-              "desc": "间隔时间设置，如1秒填1即可"
-            }, 
-            {
-              "id": "notifytimes", 
-              "val": "", 
-              "name": "通知频率 (点击查看设置说明)", 
-              "type": "number", 
-              "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
-            }, 
-            {
-              "id": "zqcash", 
-              "val": "30", 
-              "name": "提现金额", 
-              "type": "radios", 
-              "desc": "自动提现金额需和获取提现请求保持一致", 
-              "items": [
-                {
-                  "key": "10", 
-                  "label": "10元"
-                }, 
-                {
-                  "key": "30", 
-                  "label": "30元"
-                }, 
-                {
-                  "key": "100", 
-                  "label": "100元"
-                }
-              ]
-            }
-          ], 
-          "name": "中青极速版2.02", 
-          "icons": [
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
-          ]
-        }, 
+    {
+      "author": "@dmw",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+        "<br />",
+        "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+      ],
+      "keys": [
+        "zq_nick",
+        "youthheader_zq",
+        "read_zq",
+        "readtime_zq",
+        "cashurl_zq",
+        "cashbody_zq",
+        "zqcash",
+        "zqcard"
+      ],
+      "repo": "https://github.com/foxboy2022/qxfoxboy",
+      "id": "youth",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth.js",
+      "settings": [
         {
-          "author": "@dmw", 
-          "keys": [
-            "youth_start", 
-            "youth_look"
-          ], 
-          "repo": "https://github.com/foxboy2022/qxfoxboy", 
-          "id": "youthGain", 
-          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth_gain.js", 
-          "name": "中青浏览赚&看看赚", 
-          "icons": [
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
-          ]
-        }, 
+          "id": "zqcard",
+          "val": "false",
+          "name": "打卡赚钱",
+          "type": "boolean",
+          "desc": "每日打卡报名及早起打卡"
+        },
         {
-          "author": "@dmw", 
-          "keys": [
-            "youth_autoread", 
-            "autotime_zq"
-          ], 
-          "settings": [
-          {
-              "id": "youth_cut", 
-              "val": false, 
-              "name": "缩减请求", 
-              "type": "boolean", 
-              "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+          "id": "zqtime",
+          "val": "05",
+          "name": "打卡时间",
+          "type": "number",
+          "desc": "每日早起打卡时间"
+        },
+        {
+          "id": "delay_rotary_zq",
+          "val": "10",
+          "name": "转盘时间间隔",
+          "type": "number",
+          "desc": "间隔时间设置，如1秒填1即可"
+        },
+        {
+          "id": "notifytimes",
+          "val": "",
+          "name": "通知频率 (点击查看设置说明)",
+          "type": "number",
+          "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+        },
+        {
+          "id": "zqcash",
+          "val": "30",
+          "name": "提现金额",
+          "type": "radios",
+          "desc": "自动提现金额需和获取提现请求保持一致",
+          "items": [
+            {
+              "key": "10",
+              "label": "10元"
+            },
+            {
+              "key": "30",
+              "label": "30元"
+            },
+            {
+              "key": "100",
+              "label": "100元"
             }
-          ],
-          "repo": "https://github.com/foxboy2022/qxfoxboy", 
-          "id": "youthRead", 
-          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Youth_AutoRead.js", 
-          "name": "中青自动阅读", 
-          "icons": [
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
-            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
           ]
         }
+      ],
+      "name": "中青极速版2.02",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+      ]
+    },
+    {
+      "author": "@dmw",
+      "keys": [
+        "youth_start",
+        "youth_look"
+      ],
+      "repo": "https://github.com/foxboy2022/qxfoxboy",
+      "id": "youthGain",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth_gain.js",
+      "name": "中青浏览赚&看看赚",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+      ]
+    },
+    {
+      "author": "@dmw",
+      "keys": [
+        "youth_autoread",
+        "autotime_zq"
+      ],
+      "settings": [
+        {
+          "id": "youth_cut",
+          "val": false,
+          "name": "缩减请求",
+          "type": "boolean",
+          "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+        }
+      ],
+      "repo": "https://github.com/foxboy2022/qxfoxboy",
+      "id": "youthRead",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Youth_AutoRead.js",
+      "name": "中青自动阅读",
+      "icons": [
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+        "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+      ]
+    },
+    {
+      "id": "Hisense",
+      "name": "海信爱家",
+      "author": "@dmw",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Hisense.js",
+      "descs_html": [
+        ""
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/hisense.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/hisense.png"
+      ],
+      "keys": [
+        "HISENSE_CPS",
+        "HISENSE_SWEIXIN"
+      ],
+      "settings": [
+        {
+          "id": "HISENSE_CPS",
+          "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        },
+        {
+          "id": "HISENSE_SWEIXIN",
+          "name": "用户数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        }
+      ]
+    },
+    {
+      "id": "Quark",
+      "name": "夸克网盘",
+      "author": "@dmw",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.js",
+      "descs_html": [
+        "<p>使用方法青龙：1.抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割Surge、QuantumultX、Loon、Shadowrocket\n1.将获取ck脚本拉取到本地\n2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本\n3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs</p>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png"
+      ],
+      "keys": [
+        "quark_data"
+      ],
+      "settings": [
+        {
+          "id": "quark_data",
+          "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        }
+      ]
+    }
   ]
 }
