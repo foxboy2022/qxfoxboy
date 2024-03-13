@@ -173,7 +173,7 @@
         "自用工具"
       ],
       "icons": [
-        "debug.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png",
         "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
       ],
       "keys": [
@@ -375,6 +375,39 @@
           "autoGrow": true,
           "rows": 1,
           "desc": "多账户用 @ 隔开"
+        }
+      ]
+    },
+    {
+      "id": "联通小程序",
+      "name": "联通小程序",
+      "author": "@dmw",
+      "descs_html": [
+        "联通抽奖"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10010.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10010.png"
+      ],
+      "keys": [
+        "loginCode",
+        "mobile"
+      ],
+      "settings": [
+        {
+          "id": "loginCode",
+          "name": "代码",
+          "val": "",
+          "type": "text",
+          "desc": "自用"
+        },
+        {
+          "id": "moble",
+          "name": "手机号",
+          "val": "",
+          "type": "text",
+          "placeholder": "",
+          "desc": "自用"
         }
       ]
     }
