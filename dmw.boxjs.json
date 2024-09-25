@@ -9,7 +9,7 @@
       "id": "dmw-maotai",
       "name": "i茅台2024",
       "author": "@dmw",
-      "script": "",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js",
       "descs_html": [
         ""
       ],
@@ -86,8 +86,7 @@
           "type": "text",
           "desc": "clips_xxx"
         }
-      ],
-      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js"
+      ]
     },
     {
       "id": "gson.prod.10000",
@@ -370,6 +369,43 @@
         {
           "id": "quark_data",
           "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        }
+      ]
+    },
+    {
+      "id": "10086",
+      "name": "中国移动",
+      "author": "@dmw",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+      "descs_html": [
+        "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+      ],
+      "keys": [
+        "cmcc_data",
+        "cmcc_mobile"
+      ],
+      "settings": [
+        {
+          "id": "cmcc_data",
+          "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        },
+        {
+          "id": "cmcc_mobile",
+          "name": "手机号",
           "val": "",
           "type": "textarea",
           "autoGrow": true,
