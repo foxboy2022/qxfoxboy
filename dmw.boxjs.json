@@ -1,13 +1,94 @@
 {
-  "id": "dmw2024.app.sub",
+  "id": "dmw2024.app.update",
   "name": "自用应用订阅",
   "author": "@dmw",
   "icon": "https://avatars.githubusercontent.com/u/88471740",
   "repo": "https://github.com/foxboy2022/qxfoxboy",
   "apps": [
     {
+      "id": "lhtjsign",
+      "name": "🌟妈签到",
+      "keys": [
+        "xmyx_data"
+      ],
+      "settings": [
+        {
+          "id": "xmyx_data",
+          "name": "星妈优选",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "星妈优选小程序 每日签到、任务"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+      "icons": [
+        "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/xmyx.png"
+      ]
+    },
+    {
+      "id": "lhtjsign",
+      "name": "龙湖天街",
+      "keys": [
+        "lhtj_data"
+      ],
+      "settings": [
+        {
+          "id": "lhtj_data",
+          "name": "龙湖天街小程序签到、抽奖",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+      "icons": [
+        "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png"
+      ]
+    },
+    {
+      "id": "wx10086",
+      "name": "微厅活动",
+      "author": "@dmw",
+      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+      "descs_html": [
+        "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+      ],
+      "icons": [
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+      ],
+      "keys": [
+        "cmcc_data",
+        "cmcc_mobile"
+      ],
+      "settings": [
+        {
+          "id": "cmcc_data",
+          "name": "签到数据",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        },
+        {
+          "id": "cmcc_mobile",
+          "name": "手机号",
+          "val": "",
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 1,
+          "desc": "多账户用 @ 隔开"
+        }
+      ]
+    },
+    {
       "id": "dmw-maotai",
-      "name": "i茅台2024",
+      "name": "i茅台",
       "author": "@dmw",
       "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js",
       "descs_html": [
@@ -90,7 +171,7 @@
     },
     {
       "id": "gson.prod.10000",
-      "name": "2024中国电信",
+      "name": "中国电信",
       "descs_html": [
         "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
         "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
@@ -311,43 +392,6 @@
       "icons": [
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
-      ]
-    },
-    {
-      "id": "Hisense",
-      "name": "海信爱家",
-      "author": "@dmw",
-      "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Hisense.js",
-      "descs_html": [
-        ""
-      ],
-      "icons": [
-        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/hisense.png",
-        "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/hisense.png"
-      ],
-      "keys": [
-        "HISENSE_CPS",
-        "HISENSE_SWEIXIN"
-      ],
-      "settings": [
-        {
-          "id": "HISENSE_CPS",
-          "name": "签到数据",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "多账户用 @ 隔开"
-        },
-        {
-          "id": "HISENSE_SWEIXIN",
-          "name": "用户数据",
-          "val": "",
-          "type": "textarea",
-          "autoGrow": true,
-          "rows": 1,
-          "desc": "多账户用 @ 隔开"
-        }
       ]
     },
     {
