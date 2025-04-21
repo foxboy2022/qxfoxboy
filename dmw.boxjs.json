@@ -437,7 +437,7 @@
         "cmcc_data",
         "cmcc_mobile"
       ],
-      "settings": [
+      "settings": [ 
         {
           "id": "cmcc_data",
           "name": "签到数据",
