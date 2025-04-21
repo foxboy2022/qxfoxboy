@@ -6,6 +6,1536 @@
   "repo": "https://github.com/foxboy2022/qxfoxboy",
   "apps": [
     {
+      "id": "JunPinHuiSign",
+      "name": "君品荟",
+      "keys": [
+        [
+          "JunPinHui",
+          "OCR_SERVER"
+        ]
+      ],
+      "settings": [
+        {
+          "id": "JunPinHui",
+          "name": "君品荟账号&密码空格分割多账号",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "君品荟每日签到，积分可兑换实物"
+        },
+        {
+          "id": "OCR_SERVER",
+          "name": "ocr服务",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "验证码识别API"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png",
+      "icons": [
+        "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png"
+      ]
+    },
+    [
+      {
+        "id": "CmotoSign",
+        "name": "春风摩托",
+        "keys": [
+          "cfmoto_data"
+        ],
+        "settings": [
+          {
+            "id": "cfmoto_data",
+            "name": "春风摩托cookie",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "春风摩托 每日签到、会员任务，积分可兑换实物"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png",
+        "icons": [
+          "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/cfmoto.png"
+        ]
+      },
+      {
+        "id": "HaiTianSign",
+        "name": "海天小程序",
+        "keys": [
+          "HaiTian"
+        ],
+        "settings": [
+          {
+            "id": "HaiTian",
+            "name": "海天美味馆cookie",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "海天美味馆可以兑换实物或者积分购物抵扣"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/sliverkiss/QuantumultX/main/icon/htmwg.png"
+        ]
+      },
+      {
+        "id": "ThomasCook",
+        "name": "复游会",
+        "keys": [
+          "ThomasCook_test"
+        ],
+        "settings": [
+          {
+            "id": "ThomasCook_test",
+            "name": "复游会cookie",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "复游会签到ck长期有效年终奖项目"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png"
+        ]
+      },
+      [
+        {
+          "id": "keycode",
+          "name": "抢购关键字",
+          "keys": [
+            "skill_keywords"
+          ],
+          "settings": [
+            {
+              "id": "skill_keywords",
+              "name": "秒杀关键字",
+              "val": "",
+              "type": "input",
+              "autoGrow": true,
+              "desc": "自动更新秒杀关键字实现目标产品自抢"
+            }
+          ],
+          "author": "@dmw",
+          "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+          "icons": [
+            "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/10086.png"
+          ]
+        },
+        {
+          "id": "lhtjsign",
+          "name": "龙湖天街",
+          "keys": [
+            "lhtj_data"
+          ],
+          "settings": [
+            {
+              "id": "lhtj_data",
+              "name": "龙湖天街小程序签到、抽奖",
+              "val": "",
+              "type": "input",
+              "autoGrow": true,
+              "desc": "获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。"
+            }
+          ],
+          "author": "@dmw",
+          "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+          "icons": [
+            "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png"
+          ]
+        },
+        {
+          "id": "wx10086",
+          "name": "微厅活动",
+          "author": "@dmw",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+          "descs_html": [
+            "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+          ],
+          "icons": [
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+          ],
+          "keys": [
+            "cmcc_data",
+            "cmcc_mobile"
+          ],
+          "settings": [
+            {
+              "id": "cmcc_data",
+              "name": "签到数据",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": "多账户用 @ 隔开"
+            },
+            {
+              "id": "cmcc_mobile",
+              "name": "手机号",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": "多账户用 @ 隔开"
+            }
+          ]
+        },
+        {
+          "id": "dmw-maotai",
+          "name": "i茅台",
+          "author": "@dmw",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js",
+          "descs_html": [
+            ""
+          ],
+          "icons": [
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png",
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png"
+          ],
+          "keys": [
+            "MT_TOKENS",
+            "MT_PROVINCE",
+            "MT_CITY",
+            "MT_DISTRICT",
+            "MT_ITEM_BLACK",
+            "MT_VERSION",
+            "MT_USERAGENT",
+            "MT_R"
+          ],
+          "settings": [
+            {
+              "id": "MT_TOKENS",
+              "name": "i茅台Token",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": ""
+            },
+            {
+              "id": "MT_PROVINCE",
+              "name": "省份",
+              "val": "",
+              "type": "text",
+              "desc": "XX省 / 直辖市"
+            },
+            {
+              "id": "MT_CITY",
+              "name": "城市",
+              "val": "",
+              "type": "text",
+              "desc": "XX市 / 直辖市"
+            },
+            {
+              "id": "MT_DISTRICT",
+              "name": "区域",
+              "val": "",
+              "type": "text",
+              "desc": "xx区|xx区"
+            },
+            {
+              "id": "MT_ITEM_BLACK",
+              "name": "商品黑名单",
+              "val": "",
+              "type": "text",
+              "desc": "2478|10056"
+            },
+            {
+              "id": "MT_VERSION",
+              "name": "APP版本号",
+              "val": "",
+              "type": "text",
+              "desc": "x.x.x"
+            },
+            {
+              "id": "MT_USERAGENT",
+              "name": "用户标识",
+              "val": "",
+              "type": "text",
+              "desc": "iOS;16.1.2;Apple;"
+            },
+            {
+              "id": "MT_R",
+              "name": "MT_R",
+              "val": "",
+              "type": "text",
+              "desc": "clips_xxx"
+            }
+          ]
+        },
+        {
+          "id": "gson.prod.10000",
+          "name": "中国电信",
+          "descs_html": [
+            "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
+            "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+          ],
+          "scripts": [
+            {
+              "name": "2024中国电信流量查询",
+              "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
+            }
+          ],
+          "keys": [
+            "gsonhub.10000.mobile",
+            "gsonhub.10000.password",
+            "gsonhub.10000.token",
+            "gsonhub.10000.mute",
+            "gsonhub.10000.vvv_flow",
+            "gsonhub.10000.login_num",
+            "gsonhub.10000.login_info"
+          ],
+          "author": "@gsonhub",
+          "settings": [
+            {
+              "id": "gsonhub.10000.mobile",
+              "name": "手机号",
+              "val": "",
+              "type": "text",
+              "desc": "手机号"
+            },
+            {
+              "id": "gsonhub.10000.password",
+              "name": "密码",
+              "val": "",
+              "type": "text",
+              "desc": "密码"
+            },
+            {
+              "id": "gsonhub.10000.mute",
+              "name": "禁音模式",
+              "val": false,
+              "type": "boolean"
+            }
+          ]
+        },
+        {
+          "id": "dmw.bark",
+          "name": "Bark推送",
+          "keys": [
+            "magic_bark_url",
+            "bark_key"
+          ],
+          "settings": [
+            {
+              "id": "magic_bark_url",
+              "name": "Bark推送URL",
+              "val": "",
+              "type": "input",
+              "placeholder": "https://api.day.app/xxxxxxxxxxxxxxxxxx/",
+              "autoGrow": true,
+              "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
+            },
+            {
+              "id": "bark_key",
+              "name": "bark_key",
+              "val": false,
+              "type": "input"
+            }
+          ],
+          "author": "@dmw",
+          "repo": "https://github.com/foxboy2022/qxfoxboy",
+          "icons": [
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/bark.jpg"
+          ]
+        },
+        {
+          "id": "debug-tools",
+          "name": "debug-Tools",
+          "author": "@dmw",
+          "descs_html": [
+            "自用工具"
+          ],
+          "icons": [
+            "debug.png",
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
+          ],
+          "keys": [
+            "is_debug",
+            "bark_key"
+          ],
+          "settings": [
+            {
+              "id": "is_debug",
+              "name": "Debug",
+              "val": false,
+              "type": "boolean",
+              "desc": "自用"
+            },
+            {
+              "id": "bark_key",
+              "name": "Bark key",
+              "val": "",
+              "type": "text",
+              "placeholder": "",
+              "desc": "自用"
+            }
+          ]
+        },
+        {
+          "author": "@dmw",
+          "descs_html": [
+            "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+            "<br />",
+            "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+          ],
+          "keys": [
+            "zq_nick",
+            "youthheader_zq",
+            "read_zq",
+            "readtime_zq",
+            "cashurl_zq",
+            "cashbody_zq",
+            "zqcash",
+            "zqcard"
+          ],
+          "repo": "https://github.com/foxboy2022/qxfoxboy",
+          "id": "youth",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth.js",
+          "settings": [
+            {
+              "id": "zqcard",
+              "val": "false",
+              "name": "打卡赚钱",
+              "type": "boolean",
+              "desc": "每日打卡报名及早起打卡"
+            },
+            {
+              "id": "zqtime",
+              "val": "05",
+              "name": "打卡时间",
+              "type": "number",
+              "desc": "每日早起打卡时间"
+            },
+            {
+              "id": "delay_rotary_zq",
+              "val": "10",
+              "name": "转盘时间间隔",
+              "type": "number",
+              "desc": "间隔时间设置，如1秒填1即可"
+            },
+            {
+              "id": "notifytimes",
+              "val": "",
+              "name": "通知频率 (点击查看设置说明)",
+              "type": "number",
+              "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+            },
+            {
+              "id": "zqcash",
+              "val": "30",
+              "name": "提现金额",
+              "type": "radios",
+              "desc": "自动提现金额需和获取提现请求保持一致",
+              "items": [
+                {
+                  "key": "10",
+                  "label": "10元"
+                },
+                {
+                  "key": "30",
+                  "label": "30元"
+                },
+                {
+                  "key": "100",
+                  "label": "100元"
+                }
+              ]
+            }
+          ],
+          "name": "中青极速版2.02",
+          "icons": [
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+          ]
+        },
+        {
+          "author": "@dmw",
+          "keys": [
+            "youth_start",
+            "youth_look"
+          ],
+          "repo": "https://github.com/foxboy2022/qxfoxboy",
+          "id": "youthGain",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth_gain.js",
+          "name": "中青浏览赚&看看赚",
+          "icons": [
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+          ]
+        },
+        {
+          "author": "@dmw",
+          "keys": [
+            "youth_autoread",
+            "autotime_zq"
+          ],
+          "settings": [
+            {
+              "id": "youth_cut",
+              "val": false,
+              "name": "缩减请求",
+              "type": "boolean",
+              "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+            }
+          ],
+          "repo": "https://github.com/foxboy2022/qxfoxboy",
+          "id": "youthRead",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Youth_AutoRead.js",
+          "name": "中青自动阅读",
+          "icons": [
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+            "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+          ]
+        },
+        {
+          "id": "Quark",
+          "name": "夸克网盘",
+          "author": "@dmw",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.js",
+          "descs_html": [
+            "<p>使用方法青龙：1.抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割Surge、QuantumultX、Loon、Shadowrocket\n1.将获取ck脚本拉取到本地\n2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本\n3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs</p>"
+          ],
+          "icons": [
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png",
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png"
+          ],
+          "keys": [
+            "quark_data"
+          ],
+          "settings": [
+            {
+              "id": "quark_data",
+              "name": "签到数据",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": "多账户用 @ 隔开"
+            }
+          ]
+        },
+        {
+          "id": "10086",
+          "name": "中国移动",
+          "author": "@dmw",
+          "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+          "descs_html": [
+            "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+          ],
+          "icons": [
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+            "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+          ],
+          "keys": [
+            "cmcc_data",
+            "cmcc_mobile"
+          ],
+          "settings": [
+            {
+              "id": "cmcc_data",
+              "name": "签到数据",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": "多账户用 @ 隔开"
+            },
+            {
+              "id": "cmcc_mobile",
+              "name": "手机号",
+              "val": "",
+              "type": "textarea",
+              "autoGrow": true,
+              "rows": 1,
+              "desc": "多账户用 @ 隔开"
+            }
+          ]
+        }
+      ],
+      {
+        "id": "xmyxsign",
+        "name": "🌟妈签到",
+        "keys": [
+          "xmyx_data"
+        ],
+        "settings": [
+          {
+            "id": "xmyx_data",
+            "name": "星妈优选",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "星妈优选小程序 每日签到、任务"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/xmyx.png"
+        ]
+      },
+      {
+        "id": "lhtjsign",
+        "name": "龙湖天街",
+        "keys": [
+          "lhtj_data"
+        ],
+        "settings": [
+          {
+            "id": "lhtj_data",
+            "name": "龙湖天街小程序签到、抽奖",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png"
+        ]
+      },
+      {
+        "id": "wx10086",
+        "name": "微厅活动",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+        ],
+        "keys": [
+          "cmcc_data",
+          "cmcc_mobile"
+        ],
+        "settings": [
+          {
+            "id": "cmcc_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          },
+          {
+            "id": "cmcc_mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      },
+      {
+        "id": "dmw-maotai",
+        "name": "i茅台",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js",
+        "descs_html": [
+          ""
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png"
+        ],
+        "keys": [
+          "MT_TOKENS",
+          "MT_PROVINCE",
+          "MT_CITY",
+          "MT_DISTRICT",
+          "MT_ITEM_BLACK",
+          "MT_VERSION",
+          "MT_USERAGENT",
+          "MT_R"
+        ],
+        "settings": [
+          {
+            "id": "MT_TOKENS",
+            "name": "i茅台Token",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": ""
+          },
+          {
+            "id": "MT_PROVINCE",
+            "name": "省份",
+            "val": "",
+            "type": "text",
+            "desc": "XX省 / 直辖市"
+          },
+          {
+            "id": "MT_CITY",
+            "name": "城市",
+            "val": "",
+            "type": "text",
+            "desc": "XX市 / 直辖市"
+          },
+          {
+            "id": "MT_DISTRICT",
+            "name": "区域",
+            "val": "",
+            "type": "text",
+            "desc": "xx区|xx区"
+          },
+          {
+            "id": "MT_ITEM_BLACK",
+            "name": "商品黑名单",
+            "val": "",
+            "type": "text",
+            "desc": "2478|10056"
+          },
+          {
+            "id": "MT_VERSION",
+            "name": "APP版本号",
+            "val": "",
+            "type": "text",
+            "desc": "x.x.x"
+          },
+          {
+            "id": "MT_USERAGENT",
+            "name": "用户标识",
+            "val": "",
+            "type": "text",
+            "desc": "iOS;16.1.2;Apple;"
+          },
+          {
+            "id": "MT_R",
+            "name": "MT_R",
+            "val": "",
+            "type": "text",
+            "desc": "clips_xxx"
+          }
+        ]
+      },
+      {
+        "id": "gson.prod.10000",
+        "name": "中国电信",
+        "descs_html": [
+          "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
+          "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+        ],
+        "scripts": [
+          {
+            "name": "2024中国电信流量查询",
+            "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
+          }
+        ],
+        "keys": [
+          "gsonhub.10000.mobile",
+          "gsonhub.10000.password",
+          "gsonhub.10000.token",
+          "gsonhub.10000.mute",
+          "gsonhub.10000.vvv_flow",
+          "gsonhub.10000.login_num",
+          "gsonhub.10000.login_info"
+        ],
+        "author": "@gsonhub",
+        "settings": [
+          {
+            "id": "gsonhub.10000.mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "text",
+            "desc": "手机号"
+          },
+          {
+            "id": "gsonhub.10000.password",
+            "name": "密码",
+            "val": "",
+            "type": "text",
+            "desc": "密码"
+          },
+          {
+            "id": "gsonhub.10000.mute",
+            "name": "禁音模式",
+            "val": false,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "dmw.bark",
+        "name": "Bark推送",
+        "keys": [
+          "magic_bark_url",
+          "bark_key"
+        ],
+        "settings": [
+          {
+            "id": "magic_bark_url",
+            "name": "Bark推送URL",
+            "val": "",
+            "type": "input",
+            "placeholder": "https://api.day.app/xxxxxxxxxxxxxxxxxx/",
+            "autoGrow": true,
+            "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
+          },
+          {
+            "id": "bark_key",
+            "name": "bark_key",
+            "val": false,
+            "type": "input"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/bark.jpg"
+        ]
+      },
+      {
+        "id": "debug-tools",
+        "name": "debug-Tools",
+        "author": "@dmw",
+        "descs_html": [
+          "自用工具"
+        ],
+        "icons": [
+          "debug.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
+        ],
+        "keys": [
+          "is_debug",
+          "bark_key"
+        ],
+        "settings": [
+          {
+            "id": "is_debug",
+            "name": "Debug",
+            "val": false,
+            "type": "boolean",
+            "desc": "自用"
+          },
+          {
+            "id": "bark_key",
+            "name": "Bark key",
+            "val": "",
+            "type": "text",
+            "placeholder": "",
+            "desc": "自用"
+          }
+        ]
+      },
+      {
+        "author": "@dmw",
+        "descs_html": [
+          "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+          "<br />",
+          "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+        ],
+        "keys": [
+          "zq_nick",
+          "youthheader_zq",
+          "read_zq",
+          "readtime_zq",
+          "cashurl_zq",
+          "cashbody_zq",
+          "zqcash",
+          "zqcard"
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youth",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth.js",
+        "settings": [
+          {
+            "id": "zqcard",
+            "val": "false",
+            "name": "打卡赚钱",
+            "type": "boolean",
+            "desc": "每日打卡报名及早起打卡"
+          },
+          {
+            "id": "zqtime",
+            "val": "05",
+            "name": "打卡时间",
+            "type": "number",
+            "desc": "每日早起打卡时间"
+          },
+          {
+            "id": "delay_rotary_zq",
+            "val": "10",
+            "name": "转盘时间间隔",
+            "type": "number",
+            "desc": "间隔时间设置，如1秒填1即可"
+          },
+          {
+            "id": "notifytimes",
+            "val": "",
+            "name": "通知频率 (点击查看设置说明)",
+            "type": "number",
+            "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+          },
+          {
+            "id": "zqcash",
+            "val": "30",
+            "name": "提现金额",
+            "type": "radios",
+            "desc": "自动提现金额需和获取提现请求保持一致",
+            "items": [
+              {
+                "key": "10",
+                "label": "10元"
+              },
+              {
+                "key": "30",
+                "label": "30元"
+              },
+              {
+                "key": "100",
+                "label": "100元"
+              }
+            ]
+          }
+        ],
+        "name": "中青极速版2.02",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "author": "@dmw",
+        "keys": [
+          "youth_start",
+          "youth_look"
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youthGain",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth_gain.js",
+        "name": "中青浏览赚&看看赚",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "author": "@dmw",
+        "keys": [
+          "youth_autoread",
+          "autotime_zq"
+        ],
+        "settings": [
+          {
+            "id": "youth_cut",
+            "val": false,
+            "name": "缩减请求",
+            "type": "boolean",
+            "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+          }
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youthRead",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Youth_AutoRead.js",
+        "name": "中青自动阅读",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "id": "Quark",
+        "name": "夸克网盘",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割Surge、QuantumultX、Loon、Shadowrocket\n1.将获取ck脚本拉取到本地\n2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本\n3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png"
+        ],
+        "keys": [
+          "quark_data"
+        ],
+        "settings": [
+          {
+            "id": "quark_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      },
+      {
+        "id": "10086",
+        "name": "中国移动",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+        ],
+        "keys": [
+          "cmcc_data",
+          "cmcc_mobile"
+        ],
+        "settings": [
+          {
+            "id": "cmcc_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          },
+          {
+            "id": "cmcc_mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      }
+    ],
+    {
+      "id": "CmotoSign",
+      "name": "春风摩托",
+      "keys": [
+        "cfmoto_data"
+      ],
+      "settings": [
+        {
+          "id": "cfmoto_data",
+          "name": "春风摩托cookie",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "春风摩托 每日签到、会员任务，积分可兑换实物"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png"
+      ]
+    },
+    {
+      "id": "HaiTianSign",
+      "name": "海天小程序",
+      "keys": [
+        "HaiTian"
+      ],
+      "settings": [
+        {
+          "id": "HaiTian",
+          "name": "海天美味馆cookie",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "海天美味馆可以兑换实物或者积分购物抵扣"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png"
+      ]
+    },
+    {
+      "id": "ThomasCook",
+      "name": "复游会",
+      "keys": [
+        "ThomasCook_test"
+      ],
+      "settings": [
+        {
+          "id": "ThomasCook_test",
+          "name": "复游会cookie",
+          "val": "",
+          "type": "input",
+          "autoGrow": true,
+          "desc": "复游会签到ck长期有效年终奖项目"
+        }
+      ],
+      "author": "@dmw",
+      "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+      "icons": [
+        "https://raw.githubusercontent.com/Sliverkiss/QuantumultX/main/icon/Tmkk.png"
+      ]
+    },
+    [
+      {
+        "id": "keycode",
+        "name": "抢购关键字",
+        "keys": [
+          "skill_keywords"
+        ],
+        "settings": [
+          {
+            "id": "skill_keywords",
+            "name": "秒杀关键字",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "自动更新秒杀关键字实现目标产品自抢"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/XWF888/Task/Main/mini/Color/10086.png"
+        ]
+      },
+      {
+        "id": "lhtjsign",
+        "name": "龙湖天街",
+        "keys": [
+          "lhtj_data"
+        ],
+        "settings": [
+          {
+            "id": "lhtj_data",
+            "name": "龙湖天街小程序签到、抽奖",
+            "val": "",
+            "type": "input",
+            "autoGrow": true,
+            "desc": "获取 Cookie：打开龙湖天街小程序，进入 我的 - 签到赚珑珠 - 任务赚奖励 - 马上签到。"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png",
+        "icons": [
+          "https://raw.githubusercontent.com/leiyiyan/resource/main/icons/lhtj.png"
+        ]
+      },
+      {
+        "id": "wx10086",
+        "name": "微厅活动",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+        ],
+        "keys": [
+          "cmcc_data",
+          "cmcc_mobile"
+        ],
+        "settings": [
+          {
+            "id": "cmcc_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          },
+          {
+            "id": "cmcc_mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      },
+      {
+        "id": "dmw-maotai",
+        "name": "i茅台",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/i-maotai.js",
+        "descs_html": [
+          ""
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/iMaoTai.png"
+        ],
+        "keys": [
+          "MT_TOKENS",
+          "MT_PROVINCE",
+          "MT_CITY",
+          "MT_DISTRICT",
+          "MT_ITEM_BLACK",
+          "MT_VERSION",
+          "MT_USERAGENT",
+          "MT_R"
+        ],
+        "settings": [
+          {
+            "id": "MT_TOKENS",
+            "name": "i茅台Token",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": ""
+          },
+          {
+            "id": "MT_PROVINCE",
+            "name": "省份",
+            "val": "",
+            "type": "text",
+            "desc": "XX省 / 直辖市"
+          },
+          {
+            "id": "MT_CITY",
+            "name": "城市",
+            "val": "",
+            "type": "text",
+            "desc": "XX市 / 直辖市"
+          },
+          {
+            "id": "MT_DISTRICT",
+            "name": "区域",
+            "val": "",
+            "type": "text",
+            "desc": "xx区|xx区"
+          },
+          {
+            "id": "MT_ITEM_BLACK",
+            "name": "商品黑名单",
+            "val": "",
+            "type": "text",
+            "desc": "2478|10056"
+          },
+          {
+            "id": "MT_VERSION",
+            "name": "APP版本号",
+            "val": "",
+            "type": "text",
+            "desc": "x.x.x"
+          },
+          {
+            "id": "MT_USERAGENT",
+            "name": "用户标识",
+            "val": "",
+            "type": "text",
+            "desc": "iOS;16.1.2;Apple;"
+          },
+          {
+            "id": "MT_R",
+            "name": "MT_R",
+            "val": "",
+            "type": "text",
+            "desc": "clips_xxx"
+          }
+        ]
+      },
+      {
+        "id": "gson.prod.10000",
+        "name": "中国电信",
+        "descs_html": [
+          "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='http://10000.log'>查看日志</a>",
+          "<a class=\"mb-2 v-btn v-btn--is-elevated\" href='javascript:;' onClick='window.location.reload(true);'>刷新</a>"
+        ],
+        "scripts": [
+          {
+            "name": "2024中国电信流量查询",
+            "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/telecom.js?v=nel1"
+          }
+        ],
+        "keys": [
+          "gsonhub.10000.mobile",
+          "gsonhub.10000.password",
+          "gsonhub.10000.token",
+          "gsonhub.10000.mute",
+          "gsonhub.10000.vvv_flow",
+          "gsonhub.10000.login_num",
+          "gsonhub.10000.login_info"
+        ],
+        "author": "@gsonhub",
+        "settings": [
+          {
+            "id": "gsonhub.10000.mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "text",
+            "desc": "手机号"
+          },
+          {
+            "id": "gsonhub.10000.password",
+            "name": "密码",
+            "val": "",
+            "type": "text",
+            "desc": "密码"
+          },
+          {
+            "id": "gsonhub.10000.mute",
+            "name": "禁音模式",
+            "val": false,
+            "type": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "dmw.bark",
+        "name": "Bark推送",
+        "keys": [
+          "magic_bark_url",
+          "bark_key"
+        ],
+        "settings": [
+          {
+            "id": "magic_bark_url",
+            "name": "Bark推送URL",
+            "val": "",
+            "type": "input",
+            "placeholder": "https://api.day.app/xxxxxxxxxxxxxxxxxx/",
+            "autoGrow": true,
+            "desc": "填写Bark推送的链接，脚本通知将通过Bark推送。仅基于MagicJS 3的脚本支持。"
+          },
+          {
+            "id": "bark_key",
+            "name": "bark_key",
+            "val": false,
+            "type": "input"
+          }
+        ],
+        "author": "@dmw",
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/bark.jpg"
+        ]
+      },
+      {
+        "id": "debug-tools",
+        "name": "debug-Tools",
+        "author": "@dmw",
+        "descs_html": [
+          "自用工具"
+        ],
+        "icons": [
+          "debug.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/debug.png"
+        ],
+        "keys": [
+          "is_debug",
+          "bark_key"
+        ],
+        "settings": [
+          {
+            "id": "is_debug",
+            "name": "Debug",
+            "val": false,
+            "type": "boolean",
+            "desc": "自用"
+          },
+          {
+            "id": "bark_key",
+            "name": "Bark key",
+            "val": "",
+            "type": "text",
+            "placeholder": "",
+            "desc": "自用"
+          }
+        ]
+      },
+      {
+        "author": "@dmw",
+        "descs_html": [
+          "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+          "<br />",
+          "<p>其中zq_nick、zqcash和zqcard为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+        ],
+        "keys": [
+          "zq_nick",
+          "youthheader_zq",
+          "read_zq",
+          "readtime_zq",
+          "cashurl_zq",
+          "cashbody_zq",
+          "zqcash",
+          "zqcard"
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youth",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth.js",
+        "settings": [
+          {
+            "id": "zqcard",
+            "val": "false",
+            "name": "打卡赚钱",
+            "type": "boolean",
+            "desc": "每日打卡报名及早起打卡"
+          },
+          {
+            "id": "zqtime",
+            "val": "05",
+            "name": "打卡时间",
+            "type": "number",
+            "desc": "每日早起打卡时间"
+          },
+          {
+            "id": "delay_rotary_zq",
+            "val": "10",
+            "name": "转盘时间间隔",
+            "type": "number",
+            "desc": "间隔时间设置，如1秒填1即可"
+          },
+          {
+            "id": "notifytimes",
+            "val": "",
+            "name": "通知频率 (点击查看设置说明)",
+            "type": "number",
+            "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+          },
+          {
+            "id": "zqcash",
+            "val": "30",
+            "name": "提现金额",
+            "type": "radios",
+            "desc": "自动提现金额需和获取提现请求保持一致",
+            "items": [
+              {
+                "key": "10",
+                "label": "10元"
+              },
+              {
+                "key": "30",
+                "label": "30元"
+              },
+              {
+                "key": "100",
+                "label": "100元"
+              }
+            ]
+          }
+        ],
+        "name": "中青极速版2.02",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "author": "@dmw",
+        "keys": [
+          "youth_start",
+          "youth_look"
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youthGain",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/youth_gain.js",
+        "name": "中青浏览赚&看看赚",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "author": "@dmw",
+        "keys": [
+          "youth_autoread",
+          "autotime_zq"
+        ],
+        "settings": [
+          {
+            "id": "youth_cut",
+            "val": false,
+            "name": "缩减请求",
+            "type": "boolean",
+            "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+          }
+        ],
+        "repo": "https://github.com/foxboy2022/qxfoxboy",
+        "id": "youthRead",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Youth_AutoRead.js",
+        "name": "中青自动阅读",
+        "icons": [
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png",
+          "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+        ]
+      },
+      {
+        "id": "Quark",
+        "name": "夸克网盘",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓https://drive-m.quark.cn/1/clouddrive/capacity/growth/sign接口的kps、sign、vcode，用#连接，填写到quark_data，多账号用@分割Surge、QuantumultX、Loon、Shadowrocket\n1.将获取ck脚本拉取到本地\n2.打开网盘，手动点击一次签到，若提示获取ck成功则可以使用改脚本\n3.关闭获取ck脚本，防止出现不必要的mitm。ps：若以上获取ck操作失败，可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/Quark.png"
+        ],
+        "keys": [
+          "quark_data"
+        ],
+        "settings": [
+          {
+            "id": "quark_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      },
+      {
+        "id": "10086",
+        "name": "中国移动",
+        "author": "@dmw",
+        "script": "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/10086.js",
+        "descs_html": [
+          "<p>使用方法青龙：1.抓请求体\n2.配置手机号\n3.可以参照青龙的使用方法手动将参数填入boxjs</p>"
+        ],
+        "icons": [
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png",
+          "https://raw.githubusercontent.com/foxboy2022/qxfoxboy/main/images/10086.png"
+        ],
+        "keys": [
+          "cmcc_data",
+          "cmcc_mobile"
+        ],
+        "settings": [
+          {
+            "id": "cmcc_data",
+            "name": "签到数据",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          },
+          {
+            "id": "cmcc_mobile",
+            "name": "手机号",
+            "val": "",
+            "type": "textarea",
+            "autoGrow": true,
+            "rows": 1,
+            "desc": "多账户用 @ 隔开"
+          }
+        ]
+      }
+    ],
+    {
       "id": "xmyxsign",
       "name": "🌟妈签到",
       "keys": [
@@ -437,7 +1967,7 @@
         "cmcc_data",
         "cmcc_mobile"
       ],
-      "settings": [ 
+      "settings": [
         {
           "id": "cmcc_data",
           "name": "签到数据",
